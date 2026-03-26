@@ -21,13 +21,13 @@ public class Payment {
     private double roomRent;
 
     // Total = messCharge + amenityCharge + roomRent
-    // Computed in the Service layer before saving
+    // To be computed in the Service layer before saving
     private double totalAmount;
 
     // How the student paid: "CASH" or "CHEQUE"
     private String paymentMode;
 
-    // How much has actually been paid so far (allows partial payments)
+    // How much has actually been paid so far
     private double amountPaid;
 
     // Remaining balance (totalAmount - amountPaid)
@@ -36,6 +36,6 @@ public class Payment {
     // Exact time the payment was recorded
     private LocalDateTime paymentDate;
 
-    // Billing period, e.g. "2024-03" means March 2024
+    // Billing period
     private String billingMonth;   // format: "YYYY-MM"
 }

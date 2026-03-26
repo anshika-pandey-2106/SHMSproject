@@ -11,7 +11,7 @@ public class Hall {
     @Id
     private String id;
 
-    // Hall name, e.g. "Tagore Hall", "Raman Hall"
+    // Hall name
     private String name;
 
     // Monthly amenity charge levied on every student in this hall

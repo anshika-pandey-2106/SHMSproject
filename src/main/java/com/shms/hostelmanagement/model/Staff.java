@@ -22,6 +22,6 @@ public class Staff {
     // Pay per working day in rupees
     private double dailyPay;
 
-    // false when staff member leaves (soft-delete: keeps records for audit)
+    // false when staff member leaves
     private boolean active = true;
 }
